@@ -40,6 +40,8 @@
           </div>
         </div>
       </div>
+
+
       <!-- Promo Banner -->
       <div class="promo-banner">
         <a href="https://www.gamestop.com/trade" target="_blank">
@@ -48,6 +50,8 @@
           <span class="d-block">Phones, Electronics & Games</span>
         </a>
       </div>
+
+
       <!-- Main Header Navigation -->
       <div class="main-header-navigation" id="main-header-navigation">
           <header>
@@ -55,23 +59,32 @@
                   <div class="menubar-wrapper">
                       <div class="header container-fluid header-redesign" id="header-redesign">
                           <div class="row align-items-md-center align-header-row">
+                              <!-- Menu -->
                               <div class="header-mobile-menu col-3">
-                                  <button class="navbar-toggler" type="button" aria-controls="sg-navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
-                                      <span class="hamburger-icon-redesign material-icons">menu</span>
-                                      <span class="hamburger-menu"></span>
-                                  </button>
+                                  <input type="checkbox" id="check" />
+                                  <label for="check">
+                                    <i class="hamburger-icon-redesign material-icons" id="btn">menu</i>
+                                    <i class="fa-solid fa-times" id="cancel"></i>
+                                  </label>
+                                  <div class="sidebar">
+                                    <header>My App</header>
+                                    <ul>
+                                      <li>
+                                        <a href="#"><i class="fa-solid fa-qrcode"></i>Dashboard</a>
+                                      </li>
+                                    </ul>
+                                  </div/>
                               </div>
-
+                              <!-- Logo -->
                               <div class="header-brand col-6 col-lg-auto">
                                   <a href="/" title="GameStop Home">
                                       <img class="nav-logo" src="img/logo-gs-mono.svg" alt="GameStop" />
                                   </a>
                               </div>
-
+                              <!-- Search -->
                               <div class="header-search search-dsk col-12 col-lg d-none d-md-block">
                                 <div class="site-search">
-                                  <form role="search" id="simpleSearch" action="/search/" method="get" name="simpleSearch">
-                                    <div class="searchRedesignTemplate check-none" id="searchRedesignTemplate">
+                                  <form role="search" id="simpleSearch" action="#" method="#" name="simpleSearch">
                                       <div class="search-icon search"></div>
                                       <div class="input-group input-group-search-wrapper">
                                         <div class="input-group-append border-0">
@@ -89,7 +102,6 @@
                                       autocapitalize="none"
                                       aria-label="Search games, consoles &amp; more"/>
                                       </div>
-                                    </div>
                                   </form>
                               </div>
                           </div>
@@ -100,9 +112,58 @@
       </div>
       <!-- main-content -->
       <div class="main-content">
-        <div style="background:tomato; height:2000px;">
+          <!-- takeover wrapper 1 -->
+          <div id="takeover-wrapper-1">
+              <div class="container-fluid">
+                  <div class="row">
+                      <div class="col">
+                          <div class="takeover-wrapper takeover-wrapper-1">
+                              <img src="img/takeover-wrapper-1.webp" alt="">
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
 
-        </div>
+          <!-- feature care wrapper -->
+          <div id="feature-card-wrapper">
+              <div class="container-fluid">
+                  <div class="row">
+                      <div class="col">
+                          <div class="feature-card">
+                              <a href="https://www.gamestop.com/video-games/nintendo-switch/products/mario-strikers-battle-league---nintendo-switch/11200511.html" target="_blank">
+                                  <img src="img/card-feature-1.webp" alt="#">
+                                  <p class="card-title">Mario Strikers Battle League</p>
+                                  <p class="card-sub-title">Pre-Order Now - Available 6.10</p>
+                              </a>
+                          </div>
+                      </div>
+                      <div class="col">
+                          <div class="feature-card">
+                              <a href="https://www.gamestop.com/links/announce-0317" target="_blank">
+                                  <img src="img/card-feature-2.webp" alt="#">
+                                  <p class="card-title">The Quarry</p>
+                                  <p class="card-sub-title">Pre-Order Now - Available 6.10</p>
+                              </a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <!-- takeover wrapper 2 -->
+          <div id="takeover-wrapper-2">
+              <div class="container-fluid">
+                  <div class="row">
+                      <div class="col">
+                          <div class="takeover-wrapper takeover-wrapper-2">
+                              <img src="img/takeover-wrapper-2.webp" alt="">
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
       </div>
       <!-- footer -->
       <footer>

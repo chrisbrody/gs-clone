@@ -1,0 +1,71 @@
+body {
+  font-size: 14px;
+}
+
+/*
+    Header Banner
+*/
+.header-banner {
+  background-color: #282828;
+  color: #fff;
+  height: 40px;
+}
+.header-banner-content {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  padding-bottom: 0.625rem;
+  padding-top: 0.625rem;
+}
+.header-banner-utils {
+  display: flex;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  padding-bottom: 0.625rem;
+  padding-top: 0.625rem;
+}
+.header-banner-utils .store-header {
+  margin-right:20px;
+}
+.header-banner-utils a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+/*
+    Promo Banner
+*/
+.promo-banner {
+  background-color: #00A45A;
+}
+.promo-banner a {
+  color: #fff;
+  display: block;
+  font-size:16px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+}
+.promo-banner a span.d-block {
+  position: relative;
+  top: -5px;
+}
+
+
+/*
+    Main Header Navigation
+*/
+.main-header-navigation{}
+
+
+/*
+    Main Content
+*/
+.main-content {}
+
+
+/*
+    Footer
+*/
+footer {}

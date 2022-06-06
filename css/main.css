@@ -1,4 +1,5 @@
 body {
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
 }
 
@@ -11,14 +12,12 @@ body {
   height: 40px;
 }
 .header-banner-content {
-  font-family: "Open Sans", sans-serif;
   font-weight: bold;
   padding-bottom: 0.625rem;
   padding-top: 0.625rem;
 }
 .header-banner-utils {
   display: flex;
-  font-family: "Open Sans", sans-serif;
   font-size: 12px;
   font-weight: bold;
   padding-bottom: 0.625rem;
@@ -26,6 +25,10 @@ body {
 }
 .header-banner-utils .store-header {
   margin-right:20px;
+}
+.header-banner-utils span.material-icons {
+  vertical-align: middle;
+font-size: 1.25rem;
 }
 .header-banner-utils a {
   color: #fff;
@@ -56,7 +59,27 @@ body {
 /*
     Main Header Navigation
 */
-.main-header-navigation{}
+.main-header-navigation{
+  position: sticky;
+  top: 0;
+  padding: 18px 24px;
+  box-shadow: 0 2px 2px rgb(0 0 0 / 15%);
+  background: #fff;
+}
+.main-header-navigation .sticky-class{
+  transition: all 0.3s ease-in-out;
+  padding: 5px 12px;
+}
+.main-header-navigation .header-mobile-menu.col-3 {
+  flex: 0 0 0;
+}
+.main-header-navigation .header-search form#simpleSearch{
+  margin-bottom: 0;
+}
+.main-header-navigation .header-search form#simpleSearch .input-group.input-group-search-wrapper, .main-header-navigation .search-field{
+  background: #f0f0f0 0 0 no-repeat padding-box;
+}
+
 
 
 /*

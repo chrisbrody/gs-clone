@@ -6,6 +6,7 @@
     <title>Gamestop Replica</title>
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link as="style" rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined">
     <!-- bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- custom CSS -->
@@ -25,13 +26,13 @@
             <div class="header-banner-utils col-auto">
               <div class="store-header">
                 <a href="https://www.gamestop.com/stores/?showMap=true&horizontalView=true&isForm=true" target="_blank">
-                  <span><i class="fa-solid fa-shop"></i></span>
+                  <span class="store-header-icon material-icons">store</span>
                   <span>Harte Haven Shopping Center - GameStop</span>
                 </a>
               </div>
               <div class="check-order">
                 <a href="https://www.gamestop.com/order/search/" target="_blank">
-                  <span><i class="fa-solid fa-clipboard-list"></i></span>
+                  <span class="fileboard-checklist-icon material-icons material-icons-outlined">assignment</span>
                   <span>Check an Order</span>
                 </a>
               </div>
@@ -48,12 +49,60 @@
         </a>
       </div>
       <!-- Main Header Navigation -->
-      <div class="main-header-navigation">
+      <div class="main-header-navigation" id="main-header-navigation">
+          <header>
+              <nav role="navigation">
+                  <div class="menubar-wrapper">
+                      <div class="header container-fluid header-redesign" id="header-redesign">
+                          <div class="row align-items-md-center align-header-row">
+                              <div class="header-mobile-menu col-3">
+                                  <button class="navbar-toggler" type="button" aria-controls="sg-navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                                      <span class="hamburger-icon-redesign material-icons">menu</span>
+                                      <span class="hamburger-menu"></span>
+                                  </button>
+                              </div>
 
+                              <div class="header-brand col-6 col-lg-auto">
+                                  <a href="/" title="GameStop Home">
+                                      <img class="nav-logo" src="img/logo-gs-mono.svg" alt="GameStop" />
+                                  </a>
+                              </div>
+
+                              <div class="header-search search-dsk col-12 col-lg d-none d-md-block">
+                                <div class="site-search">
+                                  <form role="search" id="simpleSearch" action="/search/" method="get" name="simpleSearch">
+                                    <div class="searchRedesignTemplate check-none" id="searchRedesignTemplate">
+                                      <div class="search-icon search"></div>
+                                      <div class="input-group input-group-search-wrapper">
+                                        <div class="input-group-append border-0">
+                                          <button type="submit" class="btn btn-link">
+                                            <div class="search-icon material-icons">search</div>
+                                          </button>
+                                        </div>
+                                        <input class="form-control border-0 search-field hide-clear"
+                                      type="search"
+                                      value=''
+                                      name="q"
+                                      id="searchRedesignTemplateInput"
+                                      placeholder="Search games, consoles &amp; more"
+                                      autocomplete="off"
+                                      autocapitalize="none"
+                                      aria-label="Search games, consoles &amp; more"/>
+                                      </div>
+                                    </div>
+                                  </form>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </nav>
+          </header>
       </div>
       <!-- main-content -->
       <div class="main-content">
+        <div style="background:tomato; height:2000px;">
 
+        </div>
       </div>
       <!-- footer -->
       <footer>
